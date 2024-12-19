@@ -231,8 +231,9 @@ export function SideBar(props: { className?: string }) {
       {...props}
     >
       <SideBarHeader
-        title="MK2 Ai"
-        subTitle="GPT和百度可以使用."
+        title="MK2 Ai集合"
+        subTitle="GPT,文心一言,通義千問
+                  預設文心言,可在聊天窗口自選其他"
         logo={<ChatGptIcon />}
         shouldNarrow={shouldNarrow}
       >
