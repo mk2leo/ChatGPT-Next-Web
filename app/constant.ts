@@ -194,6 +194,13 @@ export const Baidu = {
     if (modelName === "ernie-3.5-8k") {
       endpoint = "completions";
     }
+    if (modelName === "Fuyu-8B") {
+      endpoint = "fuyu_8b";
+      return `rpc/2.0/ai_custom/v1/wenxinworkshop/image2text/${endpoint}`;
+    }
+    if (modelName === "Yi-34B-Chat") {
+      endpoint = "yi_34b_chat";
+    }
     if (modelName === "ernie-speed-8k") {
       endpoint = "ernie_speed";
     }
