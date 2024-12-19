@@ -30,6 +30,8 @@ export const IFLYTEK_BASE_URL = "https://spark-api-open.xf-yun.com";
 
 export const XAI_BASE_URL = "https://api.x.ai";
 
+export const FUYU_TASK_URL = "/wenxin/rpc/2.0/ai_custom/v1/wenxinworkshop/image2text/"
+
 export const CHATGLM_BASE_URL = "https://open.bigmodel.cn";
 
 export const CACHE_URL_PREFIX = "/api/cache";
@@ -118,6 +120,7 @@ export enum ServiceProvider {
   Stability = "Stability",
   Iflytek = "Iflytek",
   XAI = "XAI",
+  FuYu = "FuYu",
   ChatGLM = "ChatGLM",
 }
 
@@ -142,6 +145,7 @@ export enum ModelProvider {
   Moonshot = "Moonshot",
   Iflytek = "Iflytek",
   XAI = "XAI",
+  FuYu = "FuYu",
   ChatGLM = "ChatGLM",
 }
 
